@@ -1,2 +1,4 @@
-# cdd-cli
-This is a generic command line utility based on a configuration driven software development design approach.
+# Command Line Utility using CDD
+
+## Deployment
+pip install --editable .
