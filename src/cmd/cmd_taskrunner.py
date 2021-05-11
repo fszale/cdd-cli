@@ -13,7 +13,6 @@ long_help='This command allows ... TBD.\n\n' \
 def cli(ctx, action):
 
     if action == 'list':
-        #ret = callapi(ctx, 'apps')
         ret = True
         if ret is not None:
             ctx.log(ret)
